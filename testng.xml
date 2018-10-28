@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AcceptanceTestSuite">
+	<test thread-count="5" name="AcceptanceTest">
+		<classes>
+			<class
+				name="testCases_OpenWeatherMap_Application.TestCase_01_VerifyHomePage" />
+			<class
+				name="testCases_OpenWeatherMap_Application.TestCase_02_VerifyInvalidCity" />
+			<class
+				name="testCases_OpenWeatherMap_Application.TestCase_03_VerifyValidCityDetails" />
+
+			<class
+				name="testCases_OpenWeatherMap_Application.TestCase_04_WeatherInYourCity" />
+
+			<class
+				name="testCases_OpenWeatherMap_Application.TestCase_05_Maps_WeatherMaps_Link" />
+
+			<class
+				name="testCases_OpenWeatherMap_Application.TestCase_06_Maps_CurrentSatelliteMaps_Link" />
+			<class
+				name="testCases_OpenWeatherMap_Application.TestCase07_Maps_BeautifulPlaces_Link" />
+
+			<class
+				name="testCases_OpenWeatherMap_Application.TestCase08_VerifyAPI_Link" />
+
+			<class
+				name="testCases_OpenWeatherMap_Application.TestCase09_VerifyStations_Link" />
+			<class
+				name="testCases_OpenWeatherMap_Application.TestCase_10_LoginFunctionality" />
+			<class
+				name="testCases_OpenWeatherMap_Application.TestCase_11_OpenWeatherAPITest" />
+		</classes>
+	</test> <!-- AcceptanceTest -->
+</suite> <!-- AcceptanceTestSuite -->

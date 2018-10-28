@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AcceptanceTestSuite]">
+  <test thread-count="5" name="AcceptanceTest(failed)">
+    <classes>
+      <class name="open_Weather_XML.TestCases1_VerifyHomePage">
+        <methods>
+          <include name="test_VerifyHomePage_Title"/>
+          <include name="getResult"/>
+          <include name="publishResult"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- open_Weather_XML.TestCases1_VerifyHomePage -->
+    </classes>
+  </test> <!-- AcceptanceTest(failed) -->
+</suite> <!-- Failed suite [AcceptanceTestSuite] -->
