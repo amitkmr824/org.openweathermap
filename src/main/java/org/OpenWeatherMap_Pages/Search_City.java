@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.settings.DataProviderSettings;
 
-import junit.framework.Assert;
+import org.testng.Assert;
 
 public class Search_City {
 	

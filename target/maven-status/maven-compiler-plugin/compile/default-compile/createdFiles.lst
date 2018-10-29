@@ -1,0 +1,14 @@
+org\OpenWeatherMap_Pages\LoginPage.class
+org\OpenWeatherMap_Pages\HomePage.class
+org\reportGenerator\BaseTestReport.class
+org\OpenWeatherMap_Pages\Stations_Link.class
+org\settings\BrowserSettings.class
+org\OpenWeatherMap_Pages\API_Link.class
+org\OpenWeatherMap_Pages\OpenWeatherAPIResponse.class
+org\dataProvider\ConfigDataProvider.class
+org\settings\DataProviderSettings.class
+org\dataProvider\ExcelDataProvider.class
+org\OpenWeatherMap_Pages\WeatherInYourCity_Search.class
+org\OpenWeatherMap_Pages\Maps_Link.class
+org\OpenWeatherMap_Pages\Search_City.class
+org\utility\Screenshot.class

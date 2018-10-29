@@ -3,25 +3,18 @@ package org.OpenWeatherMap_Pages;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
-import org.OpenWeatherMap_Pages.HomePage;
-import org.OpenWeatherMap_Pages.LoginPage;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+
 import org.reportGenerator.BaseTestReport;
-import org.testng.annotations.Test;
 
 import org.settings.BrowserSettings;
 import org.settings.DataProviderSettings;
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
 
+@SuppressWarnings("deprecation")
 public class OpenWeatherAPIResponse {
 
 	private final String USER_AGENT = "Mozilla/5.0";
